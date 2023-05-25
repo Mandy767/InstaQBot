@@ -146,7 +146,7 @@ def daily_quote():
 
 
     hour = 21
-    minute = 32
+    minute = 35
 
     while True:
         now = datetime.datetime.now()
