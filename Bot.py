@@ -145,8 +145,8 @@ def daily_quote():
 
 
 
-    hour = 21
-    minute = 35
+    hour = 8
+    minute = 0
 
     while True:
         now = datetime.datetime.now()
@@ -157,6 +157,11 @@ def daily_quote():
         else:
         
             time.sleep(10)
+
+
+
+
+
 
 
 if __name__ == '__main__':
